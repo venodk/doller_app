@@ -1,0 +1,21 @@
+10:24:06.727 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.dollerapp.hiring.ApplicationTests]: HiringApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:24:06.922 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.dollerapp.hiring.Application for test class com.dollerapp.hiring.ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-04-01T10:24:07.613+01:00  INFO 94512 --- [hiring] [           main] c.d.hiring.HiringApplicationTests        : Starting HiringApplicationTests using Java 21.0.2 with PID 94512 (started by vinodkunnakkattil in /Users/vinodkunnakkattil/Documents/work/Java/doller_app)
+2025-04-01T10:24:07.614+01:00  INFO 94512 --- [hiring] [           main] c.d.hiring.HiringApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-04-01T10:24:09.283+01:00  INFO 94512 --- [hiring] [           main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-04-01T10:24:09.334+01:00  INFO 94512 --- [hiring] [           main] c.d.hiring.HiringApplicationTests        : Started HiringApplicationTests in 2.148 seconds (process running for 3.913)
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/vinodkunnakkattil/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
